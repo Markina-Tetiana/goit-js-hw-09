@@ -38,3 +38,51 @@
 .sl-counter {
   color: #fff !important;
 }
+.feedback-form {
+  max-width: 400px;
+  margin: 0 auto; /* Центровка формы */
+  padding: 24px;
+  border: 1px solid #ccc; /* Тонкая рамка */
+  border-radius: 8px; /* Скругленные углы */
+  background-color: #f9f9f9; /* Светлый фон */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+.feedback-form .form-item {
+  display: flex;
+  flex-direction: column; /* Вертикальное расположение лейбла и поля */
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #2e2f42;
+  text-align: left;
+}
+.form-item-input {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+  color: #2e2f42;
+  transition: border-color 0.3s ease;
+  margin-top: 8px;
+}
+.form-item-input:focus {
+  border-color: #000; /* Цвет рамки при фокусе */
+}
+.feedback-form button {
+  background-color: #4e75ff;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  margin-top: 8px;
+  transition: background-color 0.3s ease;
+}
+.feedback-form button:hover {
+  background-color: #6c8cff;
+}

@@ -85,7 +85,7 @@ import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const lightbox = new SimpleLightbox('.gallery a', {
-  captionsData: 'alt', // Використовує атрибут alt для підписів
-  captionPosition: 'bottom', // Підпис розташований внизу
-  captionDelay: 250, // Затримка перед відображенням підпису
+  captionsData: 'alt',
+  captionPosition: 'bottom',
+  captionDelay: 250,
 });
